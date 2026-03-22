@@ -8,3 +8,8 @@ documents:
     name: Network Model Technical Manual
     url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/network/e5f150f0-df3a-4be3-b7c1-2d4b321b2667.pdf
     notes: 
+  - id: 08645e15-4480-4312-80b7-63cbdee246ab
+    type: Business Requirements Document
+    name: Multi-Tier Distribution Network Design Document.docx
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/network/6870e1a5-6b82-4704-9595-057c08d47333.docx
+    notes: 
