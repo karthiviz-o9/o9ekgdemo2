@@ -1,0 +1,43 @@
+# Data Entity Rules
+[metadata]
+version = "1.0"
+description = "Define validation and transformation rules for this entity"
+
+# ── Hierarchy ──────────────────────────────────────────────────────────────────
+# Controls how nodes are arranged in the Hierarchy visualizer.
+[hierarchy]
+# Node types rendered at the root (depth 0) of the tree.
+root_types  = ["Dimension"]
+
+# Preferred top-to-bottom ordering when two nodes share the same depth.
+level_order = ["Dimension", "Group", "Measure", "Attribute", "Step"]
+
+# Relationship types that establish parent → child containment.
+# parent_side = "to"   means: A --rel--> B, B is the parent  (e.g. "child_of")
+# parent_side = "from" means: A --rel--> B, A is the parent  (e.g. "contains")
+[[hierarchy.containment]]
+rel_type    = "child_of"
+parent_side = "to"
+
+[[hierarchy.containment]]
+rel_type    = "attribute_of"
+parent_side = "to"
+
+[[hierarchy.containment]]
+rel_type    = "part_of"
+parent_side = "to"
+
+[[hierarchy.containment]]
+rel_type    = "aggregates_to"
+parent_side = "to"
+
+[[hierarchy.containment]]
+rel_type    = "contains"
+parent_side = "from"
+
+# ── Validation Rules ───────────────────────────────────────────────────────────
+[[rules]]
+id        = "validation_1"
+name      = "Existence Check"
+condition = "is_not_null(this.id)"
+action    = "allow"
