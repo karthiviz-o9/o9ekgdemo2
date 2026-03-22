@@ -22,6 +22,10 @@ entities:
     name: Resource
   - id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
     name: Supply Plan
+  - id: 4ec182a9-9f41-4c16-bdcf-1e25bd09f047
+    name: Network
+  - id: 167454e7-a652-4230-9436-6f0374cb636d
+    name: Demand
 
 relationships:
   - id: a8934506-b501-4ecb-a5d2-a11d9c2483ef
@@ -113,4 +117,16 @@ relationships:
     from_entity_name: Supply Plan
     to_entity_id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
     to_entity_name: Transportation Mode
+    label: defined_by
+  - id: 4b5172a1-8959-47b2-92b6-4a9d6d70f7a0
+    from_entity_id: 9475e79b-5624-40c8-a81d-cd4503fe6cea
+    from_entity_name: Product
+    to_entity_id: 167454e7-a652-4230-9436-6f0374cb636d
+    to_entity_name: Demand
+    label: feeds_into
+  - id: fdb2bc6f-426b-4013-adc6-49a3bdf40c34
+    from_entity_id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    from_entity_name: Location
+    to_entity_id: 167454e7-a652-4230-9436-6f0374cb636d
+    to_entity_name: Demand
     label: defined_by
