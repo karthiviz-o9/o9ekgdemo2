@@ -188,3 +188,9 @@ relationships:
     to_entity_id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
     to_entity_name: Transportation Mode
     label: defined_by
+  - id: 7127eb82-3259-456b-b9f5-117a8f66b259
+    from_entity_id: 167454e7-a652-4230-9436-6f0374cb636d
+    from_entity_name: Demand
+    to_entity_id: e54a54fc-6c40-4ba0-b114-97accf7b2257
+    to_entity_name: Time
+    label: defined_by
