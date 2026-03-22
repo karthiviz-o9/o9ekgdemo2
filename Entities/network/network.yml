@@ -2,3 +2,9 @@
 id: 4ec182a9-9f41-4c16-bdcf-1e25bd09f047
 name: Network
 data_source: authored
+documents:
+  - id: 9ebeba97-f309-47f4-a6bd-41018efa3901
+    type: Other
+    name: Network Model Technical Manual
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/network/e5f150f0-df3a-4be3-b7c1-2d4b321b2667.pdf
+    notes: 
