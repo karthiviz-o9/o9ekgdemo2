@@ -20,6 +20,8 @@ entities:
     name: Routings
   - id: 073d7710-153f-4271-a2c3-02969ff99612
     name: Resource
+  - id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    name: Supply Plan
 
 relationships:
   - id: a8934506-b501-4ecb-a5d2-a11d9c2483ef
@@ -64,3 +66,51 @@ relationships:
     to_entity_id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
     to_entity_name: Routings
     label: used_by
+  - id: 7ccf1697-cdd6-484d-a18b-a0326a7c2518
+    from_entity_id: 073d7710-153f-4271-a2c3-02969ff99612
+    from_entity_name: Resource
+    to_entity_id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    to_entity_name: Location
+    label: used_by
+  - id: 88494582-3acb-4785-a4f3-08c1bdabc307
+    from_entity_id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    from_entity_name: Supply Plan
+    to_entity_id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    to_entity_name: Item
+    label: defined_by
+  - id: b616a68b-8783-47b6-9c4f-60b5fe833d5b
+    from_entity_id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    from_entity_name: Supply Plan
+    to_entity_id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+    to_entity_name: Bills of Materials
+    label: defined_by
+  - id: 1ae6d940-1e27-4c0a-9de5-073a2337a434
+    from_entity_id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    from_entity_name: Supply Plan
+    to_entity_id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+    to_entity_name: Routings
+    label: defined_by
+  - id: a97d35d1-f711-4517-b6c7-b34cb31827cb
+    from_entity_id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    from_entity_name: Supply Plan
+    to_entity_id: e54a54fc-6c40-4ba0-b114-97accf7b2257
+    to_entity_name: Time
+    label: defined_by
+  - id: baf9e90d-fd04-4b18-85db-b83afb93095d
+    from_entity_id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    from_entity_name: Supply Plan
+    to_entity_id: 073d7710-153f-4271-a2c3-02969ff99612
+    to_entity_name: Resource
+    label: defined_by
+  - id: a850f1e3-16a4-45cc-b649-51213f1eb142
+    from_entity_id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    from_entity_name: Supply Plan
+    to_entity_id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+    to_entity_name: Lanes
+    label: defined_by
+  - id: e6cbe45c-3473-4223-882b-2cdce0e4c875
+    from_entity_id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    from_entity_name: Supply Plan
+    to_entity_id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+    to_entity_name: Transportation Mode
+    label: defined_by
