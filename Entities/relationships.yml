@@ -26,6 +26,8 @@ entities:
     name: Network
   - id: 167454e7-a652-4230-9436-6f0374cb636d
     name: Demand
+  - id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    name: Actuals
 
 relationships:
   - id: a8934506-b501-4ecb-a5d2-a11d9c2483ef
@@ -129,4 +131,34 @@ relationships:
     from_entity_name: Location
     to_entity_id: 167454e7-a652-4230-9436-6f0374cb636d
     to_entity_name: Demand
+    label: defined_by
+  - id: b739c236-00f7-4a10-96a8-dd7c18c7a237
+    from_entity_id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    from_entity_name: Actuals
+    to_entity_id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+    to_entity_name: Lanes
+    label: defined_by
+  - id: c8bedb49-dde2-401e-8324-c8aa9e1d034c
+    from_entity_id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    from_entity_name: Actuals
+    to_entity_id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+    to_entity_name: Transportation Mode
+    label: defined_by
+  - id: cf5ac808-e270-4783-9407-d15e4851bd2b
+    from_entity_id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    from_entity_name: Actuals
+    to_entity_id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+    to_entity_name: Bills of Materials
+    label: defined_by
+  - id: 043a3073-3413-4fdd-a1ba-7d024530c678
+    from_entity_id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    from_entity_name: Actuals
+    to_entity_id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+    to_entity_name: Routings
+    label: defined_by
+  - id: 0208c475-d073-43ed-9adc-ccf21e6690dd
+    from_entity_id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    from_entity_name: Actuals
+    to_entity_id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    to_entity_name: Location
     label: defined_by
