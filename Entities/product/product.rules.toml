@@ -3,7 +3,7 @@
 version = "1.0"
 description = "Define validation and transformation rules for this entity"
 
-# ── Hierarchy ──────────────────────────────────────────────────────────────────
+# ââ Hierarchy ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 # Controls how nodes are arranged in the Hierarchy visualizer.
 [hierarchy]
 # Node types rendered at the root (depth 0) of the tree.
@@ -12,7 +12,7 @@ root_types  = ["Dimension"]
 # Preferred top-to-bottom ordering when two nodes share the same depth.
 level_order = ["Dimension", "Group", "Measure", "Attribute", "Step"]
 
-# Relationship types that establish parent → child containment.
+# Relationship types that establish parent â child containment.
 # parent_side = "to"   means: A --rel--> B, B is the parent  (e.g. "child_of")
 # parent_side = "from" means: A --rel--> B, A is the parent  (e.g. "contains")
 [[hierarchy.containment]]
@@ -35,7 +35,7 @@ parent_side = "to"
 rel_type    = "contains"
 parent_side = "from"
 
-# ── Validation Rules ───────────────────────────────────────────────────────────
+# ââ Validation Rules âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 [[rules]]
 id        = "validation_1"
 name      = "Existence Check"
