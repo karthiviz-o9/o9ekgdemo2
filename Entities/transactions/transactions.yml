@@ -2,3 +2,9 @@
 id: 8edf0cc2-4394-4a49-8151-b6e44a1ebf05
 name: Transactions
 data_source: pipeline
+documents:
+  - id: 1a4fc0c3-16ee-4e1a-a58f-bafaeb529263
+    type: Data Dictionary
+    name: entity_transactions.md
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/transactions/2581e638-98f9-4302-ba03-ae55264b06e0.md
+    notes: 
