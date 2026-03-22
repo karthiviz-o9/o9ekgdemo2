@@ -2,7 +2,7 @@
 id: d733e87a-8242-4c12-8538-5958a1651c4c
 name: Supply Chain Solver
 kind: hpt
-language: Rust
+language: C#
 input_entities:
   - id: e54a54fc-6c40-4ba0-b114-97accf7b2257
     name: Time
