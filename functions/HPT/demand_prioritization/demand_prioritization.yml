@@ -1,0 +1,12 @@
+# entity.yml
+id: f97a336d-2143-4d94-9614-eff774e27e84
+name: Demand Prioritization
+kind: hpt
+language: Rust
+input_entities:
+  - id: 167454e7-a652-4230-9436-6f0374cb636d
+    name: Demand
+    type: entity
+output_entity:
+  id: 167454e7-a652-4230-9436-6f0374cb636d
+  name: Demand
