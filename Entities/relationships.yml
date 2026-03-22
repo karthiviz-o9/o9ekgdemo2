@@ -6,6 +6,20 @@ entities:
     name: Item
   - id: 9475e79b-5624-40c8-a81d-cd4503fe6cea
     name: Product
+  - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    name: Location
+  - id: e54a54fc-6c40-4ba0-b114-97accf7b2257
+    name: Time
+  - id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+    name: Lanes
+  - id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+    name: Transportation Mode
+  - id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+    name: Bills of Materials
+  - id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+    name: Routings
+  - id: 073d7710-153f-4271-a2c3-02969ff99612
+    name: Resource
 
 relationships:
   - id: a8934506-b501-4ecb-a5d2-a11d9c2483ef
@@ -14,3 +28,39 @@ relationships:
     to_entity_id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
     to_entity_name: Item
     label: is_a
+  - id: c2442fc3-f5a8-48a9-bfed-8e17f7fc1303
+    from_entity_id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    from_entity_name: Location
+    to_entity_id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+    to_entity_name: Lanes
+    label: feeds_into
+  - id: c262b97f-d70e-41c6-9f48-1b048862f8a1
+    from_entity_id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+    from_entity_name: Lanes
+    to_entity_id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+    to_entity_name: Transportation Mode
+    label: used_by
+  - id: 54f10e12-940b-4de1-8a6f-8521c6a5255f
+    from_entity_id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+    from_entity_name: Bills of Materials
+    to_entity_id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+    to_entity_name: Routings
+    label: used_by
+  - id: 092a874f-b7e3-4431-821c-db9c688a95b6
+    from_entity_id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    from_entity_name: Item
+    to_entity_id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+    to_entity_name: Bills of Materials
+    label: feeds_into
+  - id: 2e6ab01a-f495-499a-8d28-37e1966ad7c1
+    from_entity_id: 073d7710-153f-4271-a2c3-02969ff99612
+    from_entity_name: Resource
+    to_entity_id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+    to_entity_name: Transportation Mode
+    label: used_by
+  - id: 59df22fa-ac8b-4493-92cf-3f0a983411d0
+    from_entity_id: 073d7710-153f-4271-a2c3-02969ff99612
+    from_entity_name: Resource
+    to_entity_id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+    to_entity_name: Routings
+    label: used_by
