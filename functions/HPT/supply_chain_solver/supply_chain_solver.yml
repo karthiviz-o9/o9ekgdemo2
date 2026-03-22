@@ -40,3 +40,14 @@ input_entities:
 output_entity:
   id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
   name: Supply Plan
+documents:
+  - id: 01431edc-c384-4e93-a4dc-db2a27dec7af
+    type: Functional Specification
+    name: SCS Intermediate.pdf
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/functions/HPT/supply_chain_solver/70ce1fd9-73e9-4056-be3c-5167764c7cc9.pdf
+    notes: 
+  - id: 55cb4e5c-8752-4186-897c-b9aed87b89d5
+    type: User Guide
+    name: scs_debugging.pdf
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/functions/HPT/supply_chain_solver/e4dd827b-f0ff-4631-b415-d5e1a7c4db33.pdf
+    notes: 
