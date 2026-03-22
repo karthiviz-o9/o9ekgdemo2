@@ -2,3 +2,9 @@
 id: e54a54fc-6c40-4ba0-b114-97accf7b2257
 name: Time
 data_source: authored
+documents:
+  - id: 9c5d5f87-47ba-47d4-848d-46568550ac2b
+    type: Data Dictionary
+    name: entity_time.md
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/time/95530bac-7902-43f9-b457-dd0d5d384e79.md
+    notes: 
