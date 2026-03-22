@@ -1,0 +1,16 @@
+# relationships.yml
+# Cross-entity relationships for Business Model Entities
+
+entities:
+  - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    name: Item
+  - id: 9475e79b-5624-40c8-a81d-cd4503fe6cea
+    name: Product
+
+relationships:
+  - id: a8934506-b501-4ecb-a5d2-a11d9c2483ef
+    from_entity_id: 9475e79b-5624-40c8-a81d-cd4503fe6cea
+    from_entity_name: Product
+    to_entity_id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    to_entity_name: Item
+    label: is_a
