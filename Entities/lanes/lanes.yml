@@ -2,3 +2,9 @@
 id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
 name: Lanes
 data_source: pipeline
+documents:
+  - id: 47c74119-85fe-4fcc-a2fa-8772c3c960c5
+    type: Data Dictionary
+    name: entity_lanes.md
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/lanes/1e19e9bb-7a63-4dea-b44e-99d981e1e11c.md
+    notes: 
