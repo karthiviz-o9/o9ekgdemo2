@@ -2,3 +2,9 @@
 id: 073d7710-153f-4271-a2c3-02969ff99612
 name: Resource
 data_source: pipeline
+documents:
+  - id: f8509a76-7d95-4e2e-b589-a65f973af889
+    type: Data Dictionary
+    name: entity_resource.md
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/resource/90bb8b09-bba0-44a0-962c-66c6c5bf22f5.md
+    notes: 
