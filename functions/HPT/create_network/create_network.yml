@@ -28,3 +28,9 @@ input_entities:
 output_entity:
   id: 4ec182a9-9f41-4c16-bdcf-1e25bd09f047
   name: Network
+documents:
+  - id: 8d2d1d2d-827d-4204-ae70-52808d1dabb0
+    type: Functional Specification
+    name: function_createnetwork.md
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/functions/HPT/create_network/0b404e95-3fb3-46f9-98dd-312f295ecfb2.md
+    notes: 
