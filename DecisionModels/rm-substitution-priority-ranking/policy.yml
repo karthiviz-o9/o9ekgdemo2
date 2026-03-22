@@ -1,0 +1,13 @@
+id: 2f8e6a44-3c90-4474-b582-f47b427bb095
+name: RM Substitution Priority Ranking
+actionType: sourcing_priority
+scope: Raw Material Plan Groups
+naturalLanguage: |
+  Plan group substitution priority must follow the Approved Vendor List (AVL) ranking.
+parameters:
+  priority_list: "AVL Rank"
+  priority_mode: "avl_rank"
+linkedEntityIds:
+  []
+enabled: true
+createdAt: 2026-03-22T17:19:44.443Z
