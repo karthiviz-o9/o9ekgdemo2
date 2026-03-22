@@ -1,0 +1,15 @@
+id: ce1dbb17-1c8a-4561-bd96-bad6befc7770
+name: Transition Overlap Double-Buy Threshold
+actionType: custom
+qualifier: at_most
+scope: FG Portfolio Transition
+naturalLanguage: |
+  The phase-in date for new items must not overlap with existing open POs for the legacy item by more than 30 days.
+parameters:
+  rule_text: "Maximum overlap between phase-in date and existing POs for old SKU is 30 days."
+  max_overlap: "30"
+  unit: "days"
+linkedEntityIds:
+  []
+enabled: true
+createdAt: 2026-03-22T17:20:10.010Z
