@@ -2,9 +2,4 @@
 id: 9475e79b-5624-40c8-a81d-cd4503fe6cea
 name: Product
 data_source: pipeline
-documents:
-  - id: 4eccb30b-8262-4e60-b9d9-24b09c3d1882
-    type: Data Dictionary
-    name: entity_product.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/product/8e3a217a-ba39-48f5-aa88-1988eccd7ec3.md
-    notes: 
+model_tag: Business Model
