@@ -2,9 +2,4 @@
 id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
 name: Transportation Mode
 data_source: pipeline
-documents:
-  - id: ac88b3ab-45bd-4b2f-ab27-314ca89e5a27
-    type: Data Dictionary
-    name: entity_transmode.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/transportation_mode/e3711ed2-1fe8-4e7d-99ec-babb10a961d8.md
-    notes: 
+model_tag: Operating Model
