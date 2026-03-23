@@ -2,9 +2,4 @@
 id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
 name: Bills of Materials
 data_source: pipeline
-documents:
-  - id: 7b093d0d-69b1-4855-a05c-4ee2c269a118
-    type: Data Dictionary
-    name: entity_bom.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/bills_of_materials/357a640a-c5b3-427a-8b47-35388321ac55.md
-    notes: 
+model_tag: Operating Model
