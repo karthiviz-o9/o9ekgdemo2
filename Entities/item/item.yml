@@ -2,9 +2,4 @@
 id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
 name: Item
 data_source: pipeline
-documents:
-  - id: 0f39d88a-3fad-4129-866b-440bb58ec264
-    type: Data Dictionary
-    name: entity_item.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/item/671bd3c9-05f4-4300-923b-430f8c2b58f9.md
-    notes: 
+model_tag: Decision Model
