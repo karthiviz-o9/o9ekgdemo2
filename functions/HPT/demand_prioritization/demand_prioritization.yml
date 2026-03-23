@@ -11,8 +11,8 @@ output_entity:
   id: 167454e7-a652-4230-9436-6f0374cb636d
   name: Demand
 documents:
-  - id: b266f71e-4d55-42dc-82f8-b8caaad6734d
-    type: Technical Design Document
-    name: demand_prioritization.pdf
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/functions/HPT/demand_prioritization/53b7363d-d693-4a92-8fc3-60fce10b3715.pdf
+  - id: 793e6786-f05a-45b9-9dba-42b9e2cc6c08
+    type: Functional Specification
+    name: Demand_Prioritization.pdf
+    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/functions/HPT/demand_prioritization/c46c5a0d-8425-439f-bca8-a49dd8d0ecbd.pdf
     notes: 
