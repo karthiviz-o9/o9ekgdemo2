@@ -1,0 +1,21 @@
+# entity.yml
+id: 7863574b-3d7d-498b-9568-caec0d117d58
+name: Hierarchical Machine Learning
+kind: hpt
+language: Rust
+input_entities:
+  - id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    name: Actuals
+    type: entity
+  - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    name: Item
+    type: entity
+  - id: 167454e7-a652-4230-9436-6f0374cb636d
+    name: Demand
+    type: entity
+  - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    name: Location
+    type: entity
+output_entity:
+  id: 167454e7-a652-4230-9436-6f0374cb636d
+  name: Demand
