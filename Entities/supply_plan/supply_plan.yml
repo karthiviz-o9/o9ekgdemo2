@@ -2,19 +2,4 @@
 id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
 name: Supply Plan
 data_source: authored
-documents:
-  - id: 7c0bb941-2f57-4c56-9945-d453d2799691
-    type: Other
-    name: Supply Planning Orchestration
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/supply_plan/a1de6464-b20e-49f7-bfd4-4613745e3f1a.pdf
-    notes: 
-  - id: 0f56e392-bd4d-4cc0-a98c-bb8e13fd5236
-    type: Data Dictionary
-    name: entity_supplyplan.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/supply_plan/61ece95c-d714-48fd-b967-8c7140540b11.md
-    notes: 
-  - id: 3d811324-3950-4abc-8238-0081f4afff55
-    type: Other
-    name: Planning Control Tower
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/supply_plan/4bfc7764-116b-4da4-8a45-f76d3f0c9132.m4a
-    notes: 
+model_tag: Decision Model
