@@ -2,14 +2,4 @@
 id: 167454e7-a652-4230-9436-6f0374cb636d
 name: Demand
 data_source: authored
-documents:
-  - id: fa7cb62f-3015-45c9-9c5b-21daf9a246f9
-    type: Data Dictionary
-    name: entity_demand.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/demand/dd987b26-fc54-4b97-bf47-52c69315b270.md
-    notes: 
-  - id: bc4e0e09-537c-44ee-8df5-aae069530f81
-    type: Other
-    name: planning maturity analysis
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/demand/a23037f9-f5be-4097-b795-7ef02d0ddb6a.mp4
-    notes: 
+model_tag: Decision Model
