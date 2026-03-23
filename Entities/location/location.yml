@@ -2,9 +2,4 @@
 id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
 name: Location
 data_source: pipeline
-documents:
-  - id: ee5ac820-7dad-4b21-a6e2-520b1b1b89b3
-    type: Data Dictionary
-    name: entity_location.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/location/4770eb2b-e01c-48af-b93d-8acbb5e61a1e.md
-    notes: 
+model_tag: Decision Model
