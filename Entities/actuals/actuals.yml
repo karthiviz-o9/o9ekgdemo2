@@ -2,14 +2,4 @@
 id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
 name: Actuals
 data_source: pipeline
-documents:
-  - id: 45c39132-5500-4598-9208-25e0028a26c0
-    type: Data Dictionary
-    name: entity_actuals.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/actuals/a4530d4f-2d52-4cab-ba6a-2b399c61f4e4.md
-    notes: 
-  - id: 9fad24b4-9d50-4d3a-a07b-1aeaf5edc4ea
-    type: Business Requirements Document
-    name: Post Game Analysis
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/actuals/43c7f6c0-d105-4c75-a1e4-d764755554df.pdf
-    notes: 
+model_tag: Operating Model
