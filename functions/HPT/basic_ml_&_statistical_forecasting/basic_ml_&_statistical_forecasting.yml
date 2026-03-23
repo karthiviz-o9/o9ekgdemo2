@@ -1,0 +1,15 @@
+# entity.yml
+id: 2652d2bc-dcf5-4871-b733-0bd2f44b6392
+name: Basic ML & Statistical Forecasting
+kind: hpt
+language: Rust
+input_entities:
+  - id: 167454e7-a652-4230-9436-6f0374cb636d
+    name: Demand
+    type: entity
+  - id: 3019d5ea-7adc-43b0-8909-4b61724e83e5
+    name: Actuals
+    type: entity
+output_entity:
+  id: 167454e7-a652-4230-9436-6f0374cb636d
+  name: Demand
