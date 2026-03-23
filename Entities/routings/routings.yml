@@ -2,9 +2,4 @@
 id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
 name: Routings
 data_source: authored
-documents:
-  - id: dd75ef6a-ef1d-4b43-adac-ac27fc975132
-    type: Data Dictionary
-    name: entity_routings.md
-    url: https://raw.githubusercontent.com/karthiviz-o9/o9ekgdemo2/main/Entities/routings/f929a329-6ac9-4b9b-97d4-2d0a6c16ef8c.md
-    notes: 
+model_tag: Operating Model
