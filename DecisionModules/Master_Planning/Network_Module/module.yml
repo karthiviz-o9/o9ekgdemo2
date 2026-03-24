@@ -1,0 +1,34 @@
+# module.yml
+id: f4f001d4-52d5-448e-949c-d2a8bfa5628d
+module: Network Module
+model: Master Planning
+
+entities:
+  - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    name: Item
+    type: business
+  - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    name: Location
+    type: business
+  - id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+    name: Lanes
+    type: business
+  - id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+    name: Bills of Materials
+    type: business
+  - id: 073d7710-153f-4271-a2c3-02969ff99612
+    name: Resource
+    type: business
+  - id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+    name: Routings
+    type: business
+  - id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+    name: Transportation Mode
+    type: business
+
+processors:
+  - id: 60c20833-ed49-42e5-9155-8b90ed490b8d
+    name: Create Network
+    type: function
+    kind: hpt
+    language: Rust
