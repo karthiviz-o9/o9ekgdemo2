@@ -1,0 +1,25 @@
+# module.yml
+id: d80ef4b5-1033-4418-896f-db0102fb6cc8
+module: Demand Prioritization Module
+model: Master Planning
+
+entities:
+  - id: 167454e7-a652-4230-9436-6f0374cb636d
+    name: Demand
+    type: business
+  - id: e54a54fc-6c40-4ba0-b114-97accf7b2257
+    name: Time
+    type: business
+  - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    name: Item
+    type: business
+  - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    name: Location
+    type: business
+
+processors:
+  - id: f97a336d-2143-4d94-9614-eff774e27e84
+    name: Demand Prioritization
+    type: function
+    kind: hpt
+    language: Rust
