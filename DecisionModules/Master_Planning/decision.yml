@@ -1,0 +1,115 @@
+# decision.yml
+id: 10d1de57-639d-479a-acdf-658d86731082
+model: Master Planning
+
+tags:
+  - Standard Product, Process + Discrete Mfg, Distribution Intensive, Shelf Life Based Planning
+  - Standard Product, Distribution Intensive
+
+agents:
+  - id: 4f58a532-66ec-4fc9-83b6-e67152be1030
+    name: Analyze Master Planning Network Agent
+    category: EKG Model Agent
+  - id: 76a669df-27f9-424a-b483-d04163cd3934
+    name: Supply Plan Analysis Agent
+    category: Scenario Planning Agent
+
+modules:
+  - id: f3ce12ca-69a4-48c7-ad20-dc0067924cd7
+    name: Solver Engine Module
+    entities:
+      - id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+        name: Bills of Materials
+        type: entity
+      - id: 167454e7-a652-4230-9436-6f0374cb636d
+        name: Demand
+        type: entity
+      - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+        name: Item
+        type: entity
+      - id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+        name: Lanes
+        type: entity
+      - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+        name: Location
+        type: entity
+      - id: 4ec182a9-9f41-4c16-bdcf-1e25bd09f047
+        name: Network
+        type: entity
+      - id: 073d7710-153f-4271-a2c3-02969ff99612
+        name: Resource
+        type: entity
+      - id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+        name: Routings
+        type: entity
+      - id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+        name: Supply Plan
+        type: entity
+      - id: e54a54fc-6c40-4ba0-b114-97accf7b2257
+        name: Time
+        type: entity
+      - id: 8edf0cc2-4394-4a49-8151-b6e44a1ebf05
+        name: Transactions
+        type: entity
+      - id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+        name: Transportation Mode
+        type: entity
+    processors:
+      - id: d733e87a-8242-4c12-8538-5958a1651c4c
+        name: Supply Chain Solver
+        type: function
+        kind: hpt
+        language: C#
+  - id: d80ef4b5-1033-4418-896f-db0102fb6cc8
+    name: Demand Prioritization Module
+    entities:
+      - id: 167454e7-a652-4230-9436-6f0374cb636d
+        name: Demand
+        type: entity
+      - id: e54a54fc-6c40-4ba0-b114-97accf7b2257
+        name: Time
+        type: entity
+      - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+        name: Item
+        type: entity
+      - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+        name: Location
+        type: entity
+    processors:
+      - id: f97a336d-2143-4d94-9614-eff774e27e84
+        name: Demand Prioritization
+        type: function
+        kind: hpt
+        language: Rust
+  - id: f4f001d4-52d5-448e-949c-d2a8bfa5628d
+    name: Network Module
+    entities:
+      - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+        name: Item
+        type: entity
+      - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+        name: Location
+        type: entity
+      - id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+        name: Lanes
+        type: entity
+      - id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+        name: Bills of Materials
+        type: entity
+      - id: 073d7710-153f-4271-a2c3-02969ff99612
+        name: Resource
+        type: entity
+      - id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+        name: Routings
+        type: entity
+      - id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+        name: Transportation Mode
+        type: entity
+    processors:
+      - id: 60c20833-ed49-42e5-9155-8b90ed490b8d
+        name: Create Network
+        type: function
+        kind: hpt
+        language: Rust
+
+documents: []
