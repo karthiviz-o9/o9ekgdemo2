@@ -1,0 +1,49 @@
+# module.yml
+id: f3ce12ca-69a4-48c7-ad20-dc0067924cd7
+module: Solver Engine Module
+model: Master Planning
+
+entities:
+  - id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
+    name: Bills of Materials
+    type: business
+  - id: 167454e7-a652-4230-9436-6f0374cb636d
+    name: Demand
+    type: business
+  - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
+    name: Item
+    type: business
+  - id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
+    name: Lanes
+    type: business
+  - id: 94de083e-2808-4ed0-9737-a2127e8d7bfb
+    name: Location
+    type: business
+  - id: 4ec182a9-9f41-4c16-bdcf-1e25bd09f047
+    name: Network
+    type: business
+  - id: 073d7710-153f-4271-a2c3-02969ff99612
+    name: Resource
+    type: business
+  - id: bd5c77c6-4207-417a-98cc-b28cd8761e3b
+    name: Routings
+    type: business
+  - id: e5c5a89d-cc5e-4d08-8519-144a3ab48137
+    name: Supply Plan
+    type: business
+  - id: e54a54fc-6c40-4ba0-b114-97accf7b2257
+    name: Time
+    type: business
+  - id: 8edf0cc2-4394-4a49-8151-b6e44a1ebf05
+    name: Transactions
+    type: business
+  - id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
+    name: Transportation Mode
+    type: business
+
+processors:
+  - id: d733e87a-8242-4c12-8538-5958a1651c4c
+    name: Supply Chain Solver
+    type: function
+    kind: hpt
+    language: C#
