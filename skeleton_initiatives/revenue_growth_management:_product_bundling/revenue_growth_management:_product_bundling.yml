@@ -1,0 +1,10 @@
+# initiative_entity.yml
+id: 5471f092-1fc5-4458-9259-091906538ac3
+name: Revenue Growth Management: Product Bundling
+type: initiative
+
+objective: "Product A will be bundled with a special variant of Product B"
+start_date: 2026-03-25
+end_date: 2026-04-25
+
+phases: []
