@@ -1,0 +1,10 @@
+# initiative_entity.yml
+id: 8bdc5592-d015-4b71-a344-6509fe08f43a
+name: Revenue Growth Management: FIFA World Cup 2026 Promotion
+type: initiative
+
+objective: "Limited-time promotion campaign featuring Lionel Messi and Kylian Mbappe on US National Television"
+start_date: 2026-05-20
+end_date: 2026-07-20
+
+phases: []
