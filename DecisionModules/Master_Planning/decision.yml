@@ -6,14 +6,6 @@ tags:
   - Standard Product, Process + Discrete Mfg, Distribution Intensive, Shelf Life Based Planning
   - Standard Product, Distribution Intensive
 
-agents:
-  - id: 4f58a532-66ec-4fc9-83b6-e67152be1030
-    name: Analyze Master Planning Network Agent
-    category: EKG Model Agent
-  - id: 76a669df-27f9-424a-b483-d04163cd3934
-    name: Supply Plan Analysis Agent
-    category: Scenario Planning Agent
-
 modules:
   - id: f3ce12ca-69a4-48c7-ad20-dc0067924cd7
     name: Solver Engine Module
