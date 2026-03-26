@@ -1,0 +1,10 @@
+# initiative_entity.yml
+id: 7f69a7d3-c69b-4ab4-a0e6-9bf157dccaf0
+name: Revenue Growth Management: FIFA World Cup 2026 Promotion
+type: initiative
+
+objective: "Limited-time promotion featuring Lionel Messi and Kylian Mbappe endorsing Product C on US National Television"
+start_date: 2026-05-20
+end_date: 2026-07-20
+
+phases: []
