@@ -1,0 +1,15 @@
+# workflow.yml
+id: 40891840-5388-477d-b55d-67aa9b0c169d
+workflow: Master Planning: Automated Approval & Publish Workflow
+model: Master Planning
+
+steps:
+  - name: Master Planning KPIs
+    type: action
+    description: ""
+  - name: Approve Production Plan
+    type: action
+    description: ""
+  - name: Thursday 6:00 PM — Publish Production Plan
+    type: action
+    description: ""
