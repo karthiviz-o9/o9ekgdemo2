@@ -15,7 +15,7 @@ agents:
     category: Post Game Analytics Agent
 
 modules:
-  - id: f4ac4c05-b5d0-4059-bc60-2288fbd3de83
+  - id: 4467e00d-371c-4eaa-a158-cf6031a6c112
     name: Demand Prioritization Module
     entities:
       - id: 167454e7-a652-4230-9436-6f0374cb636d
@@ -36,7 +36,7 @@ modules:
         type: function
         kind: hpt
         language: Rust
-  - id: 2fb921c7-abbd-4057-9dc4-be8ef4992e81
+  - id: 00ca3d36-b753-4ad1-b2e5-ecad2abdb31a
     name: Network Module
     entities:
       - id: 73e8dd39-8a5f-4680-9990-39b940cf91fe
@@ -66,7 +66,7 @@ modules:
         type: function
         kind: hpt
         language: Rust
-  - id: 163235d3-db2d-480c-8d22-59970b751485
+  - id: 45a0f493-a058-482a-9d00-1bcece9c45fe
     name: Solver Engine Module
     entities:
       - id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
