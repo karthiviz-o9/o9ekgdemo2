@@ -10,6 +10,6 @@ functions = ["Create Network"]
 data_entities = ["Item", "Location", "Bills of Materials", "Routings", "Resource"]
 functions = ["Create Network"]
 
-[feature.production]
+[feature.procurement]
 data_entities = ["Item", "Location", "Lanes", "Transportation Modes", "Resource"]
 functions = ["Create Network"]
