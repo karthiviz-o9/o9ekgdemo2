@@ -2,7 +2,9 @@
 id: 3854e404-2956-425e-8603-3551b0bcfed3
 model: Master Planning
 
-tags: []
+tags:
+  - Standard Product, Process + Discrete Mfg, Distribution Intensive, Shelf Life Based Planning
+  - Standard Product, Distribution Intensive
 
 agents: []
 
