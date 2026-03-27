@@ -1,4 +1,5 @@
 # entity.yml
 id: cabbb71e-d313-4c6b-b60b-cb18a7e8186b
 name: Transportation Mode
+data_source: pipeline
 model_tag: Operating Model
