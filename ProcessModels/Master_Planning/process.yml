@@ -1,0 +1,55 @@
+# process.yml
+id: 3854e404-2956-425e-8603-3551b0bcfed3
+model: Master Planning
+
+tags: []
+
+agents: []
+
+workflows:
+  - id: 59e886be-3295-492e-a62a-ef37e9ec6137
+    name: Master Planning: Exception Resolution Workflow
+    steps:
+      - name: Review Exceptions
+        type: action
+        description: ""
+      - name: Check with Plant Scheduler for Additional Capacity
+        type: action
+        description: ""
+      - name: Collaborate with Material Planner for Material Shortage
+        type: action
+        description: ""
+      - name: Resolve Material Exception
+        type: action
+        description: ""
+      - name: Update Master Planner
+        type: action
+        description: ""
+      - name: Review Revised Plan
+        type: action
+        description: ""
+      - name: Compare and Merge to Base Scenario
+        type: action
+        description: ""
+      - name: Override Production Plan
+        type: action
+        description: ""
+      - name: Approve Production Plan
+        type: action
+        description: ""
+  - id: 40891840-5388-477d-b55d-67aa9b0c169d
+    name: Master Planning: Automated Approval & Publish Workflow
+    steps:
+      - name: Master Planning KPIs
+        type: action
+        description: ""
+      - name: Approve Production Plan
+        type: action
+        description: ""
+      - name: Thursday 6:00 PM — Publish Production Plan
+        type: action
+        description: ""
+
+initiatives: []
+
+documents: []
