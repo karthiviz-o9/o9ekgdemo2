@@ -1,4 +1,5 @@
 # entity.yml
 id: be8489c1-ac14-40d1-a3b7-22ef61b8c544
 name: Bills of Materials
+data_source: pipeline
 model_tag: Decision Model
