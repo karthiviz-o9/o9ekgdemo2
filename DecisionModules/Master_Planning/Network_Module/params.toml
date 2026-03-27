@@ -1,0 +1,15 @@
+# params.toml
+# Describe what each feature in this module is composed of.
+# List the data entities and functions that make up each feature.
+
+[feature.distribution]
+data_entities = ["Item", "Location", "Lanes", "Transportation Modes", "Resource"]
+functions = ["Create Network"]
+
+[feature.manufacturing]
+data_entities = ["Item", "Location", "Bills of Materials", "Routings", "Resource"]
+functions = ["Create Network"]
+
+[feature.production]
+data_entities = ["Item", "Location", "Lanes", "Transportation Modes", "Resource"]
+functions = ["Create Network"]
