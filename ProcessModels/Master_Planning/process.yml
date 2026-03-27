@@ -9,36 +9,6 @@ tags:
 agents: []
 
 workflows:
-  - id: 59e886be-3295-492e-a62a-ef37e9ec6137
-    name: Master Planning: Exception Resolution Workflow
-    steps:
-      - name: Review Exceptions
-        type: action
-        description: ""
-      - name: Check with Plant Scheduler for Additional Capacity
-        type: action
-        description: ""
-      - name: Collaborate with Material Planner for Material Shortage
-        type: action
-        description: ""
-      - name: Resolve Material Exception
-        type: action
-        description: ""
-      - name: Update Master Planner
-        type: action
-        description: ""
-      - name: Review Revised Plan
-        type: action
-        description: ""
-      - name: Compare and Merge to Base Scenario
-        type: action
-        description: ""
-      - name: Override Production Plan
-        type: action
-        description: ""
-      - name: Approve Production Plan
-        type: action
-        description: ""
   - id: 40891840-5388-477d-b55d-67aa9b0c169d
     name: Master Planning: Automated Approval & Publish Workflow
     steps:
@@ -51,6 +21,36 @@ workflows:
       - name: Thursday 6:00 PM — Publish Production Plan
         type: action
         description: ""
+  - id: 73fff1fc-a621-4923-949c-197121f332b1
+    name: Master Planning: Exception Resolution Workflow
+    steps:
+      - name: Review Exceptions
+        type: action
+        description: "A detailed pivot view to review and filter planning exceptions."
+      - name: Check with Plant Scheduler for Additional Capacity
+        type: action
+        description: "A collaboration feed to communicate with plant schedulers regarding capacity constraints."
+      - name: Review Revised Plan
+        type: action
+        description: "A visual timeline of the revised production plan."
+      - name: Compare and Merge to Base Scenario
+        type: action
+        description: "A tool to compare the current planning scenario against the base scenario and merge changes."
+      - name: Override Production Plan
+        type: action
+        description: "A form to manually adjust production quantities or dates."
+      - name: Approve Production Plan
+        type: action
+        description: "Buttons to trigger the approval or rejection of the production plan."
+      - name: Collaborate with Material Planner for Material Shortage
+        type: action
+        description: "A collaboration thread for resolving material availability issues."
+      - name: Resolve Material Exception
+        type: action
+        description: "A task-based interface to track the resolution of specific material shortages."
+      - name: Update Master Planner
+        type: action
+        description: "A notification feed to inform the Master Planner of resolution status."
 
 initiatives: []
 
