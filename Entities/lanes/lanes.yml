@@ -1,4 +1,5 @@
 # entity.yml
 id: 8f1615b6-3477-4e9c-8dd3-5c21364321d6
 name: Lanes
+data_source: pipeline
 model_tag: Decision Model
