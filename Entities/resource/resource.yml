@@ -1,5 +1,5 @@
 # entity.yml
 id: 073d7710-153f-4271-a2c3-02969ff99612
 name: Resource
-data_source: authored
+data_source: pipeline
 model_tag: Operating Model
