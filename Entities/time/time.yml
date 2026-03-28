@@ -1,4 +1,5 @@
 # entity.yml
 id: e54a54fc-6c40-4ba0-b114-97accf7b2257
 name: Time
+data_source: authored
 model_tag: Operating Model
