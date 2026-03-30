@@ -1,7 +1,0 @@
-# params.toml
-# Describe what each feature in this module is composed of.
-# List the data entities and functions that make up each feature.
-
-[feature.demand_prioritization]
-data_entities = ["Demand", "Time", "Item", "Location"]
-functions = ["Demand Prioritization"]
