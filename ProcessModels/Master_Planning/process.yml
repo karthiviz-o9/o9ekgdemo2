@@ -9,7 +9,7 @@ tags:
 agents: []
 
 workflows:
-  - id: 40891840-5388-477d-b55d-67aa9b0c169d
+  - id: e8ac9981-09f0-42b7-9e35-4c437561fffb
     name: Master Planning: Automated Approval & Publish Workflow
     steps:
       - name: Master Planning KPIs
@@ -18,39 +18,75 @@ workflows:
       - name: Approve Production Plan
         type: action
         description: ""
-      - name: Thursday 6:00 PM — Publish Production Plan
+      - name: Thursday 6:00 PM â Publish Production Plan
         type: action
         description: ""
-  - id: 73fff1fc-a621-4923-949c-197121f332b1
+  - id: a3a13f6a-c9b2-42f6-ae17-a99a15c1fa78
     name: Master Planning: Exception Resolution Workflow
     steps:
       - name: Review Exceptions
         type: action
-        description: "A detailed pivot view to review and filter planning exceptions."
+        description: "A hierarchical grid to view and drill down into planning exceptions."
+        entityType: ui
+        entityId: 9a4d1f49-3e44-4204-9c58-8c6d47dcaeb8
+        widgetType: Indented Grid
+        entityName: Exception Overview Grid
       - name: Check with Plant Scheduler for Additional Capacity
         type: action
-        description: "A collaboration feed to communicate with plant schedulers regarding capacity constraints."
+        description: "A real-time communication feed to discuss capacity constraints with plant schedulers."
+        entityType: ui
+        entityId: 9fc8e154-bd01-43d1-98c6-477e96d4e6e1
+        widgetType: Pulse
+        entityName: Capacity Collaboration Feed
       - name: Review Revised Plan
         type: action
-        description: "A visual timeline of the revised production plan."
+        description: "A visual timeline of the revised production plan and resource utilization."
+        entityType: ui
+        entityId: 3c1eedf4-281a-48c3-8813-31faf42e35f9
+        widgetType: Gantt Chart
+        entityName: Production Schedule Gantt
       - name: Compare and Merge to Base Scenario
         type: action
-        description: "A tool to compare the current planning scenario against the base scenario and merge changes."
+        description: "Interface to compare the revised plan against the base scenario and merge changes."
+        entityType: ui
+        entityId: 5b6027e0-0a5c-455a-bcd8-6bb971d4fa57
+        widgetType: Scenario Manager
+        entityName: Scenario Comparison Tool
       - name: Override Production Plan
         type: action
-        description: "A form to manually adjust production quantities or dates."
+        description: "A data entry grid to manually adjust production quantities or dates."
+        entityType: ui
+        entityId: 46bd2b48-2cb6-4237-9eed-5a84f61d7235
+        widgetType: Pivot
+        entityName: Production Plan Overrides
       - name: Approve Production Plan
         type: action
-        description: "Buttons to trigger the approval or rejection of the production plan."
+        description: "Buttons to trigger the approval workflow and status updates."
+        entityType: ui
+        entityId: 7ad118c6-9dfe-4f8d-b728-eac675f8e4d4
+        widgetType: Action Buttons
+        entityName: Plan Approval Actions
       - name: Collaborate with Material Planner for Material Shortage
         type: action
-        description: "A collaboration thread for resolving material availability issues."
+        description: "A dedicated space for cross-functional resolution of material constraints."
+        entityType: ui
+        entityId: 68387469-aa66-4104-b6df-becf560e1c98
+        widgetType: Triage Room
+        entityName: Material Shortage Triage
       - name: Resolve Material Exception
         type: action
-        description: "A task-based interface to track the resolution of specific material shortages."
+        description: "A simple form to input resolution details or adjust material requirements."
+        entityType: ui
+        entityId: 7e37c220-93db-4274-8adf-c79eea68b680
+        widgetType: Inline Form
+        entityName: Material Resolution Form
       - name: Update Master Planner
         type: action
-        description: "A notification feed to inform the Master Planner of resolution status."
+        description: "A task assignment to notify the Master Planner that the resolution is complete."
+        entityType: ui
+        entityId: 926b478f-c179-4d8c-acbc-4b54dcc12ccc
+        widgetType: Task
+        entityName: Final Notification Task
 
 initiatives: []
 
